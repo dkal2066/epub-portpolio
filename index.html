@@ -3,31 +3,53 @@
 <head>
   <meta charset="UTF-8">
   <title>내 EPUB 뷰어</title>
-  <script src="https://cdn.jsdelivr.net/npm/epubjs/dist/epub.min.js"></script>
+
+  <!-- ✅ CSS: 뷰어 영역을 넓게 설정 -->
   <style>
     body { font-family: sans-serif; margin: 0; }
-    #viewer { width: 100%; height: 90vh; border: none; }
-    #controls { text-align: center; margin: 10px; }
-    button { margin: 0 5px; padding: 10px 20px; font-size: 16px; }
+    #viewer {
+      width: 100%;
+      height: 90vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    #controls {
+      text-align: center;
+      margin: 10px;
+    }
+    button {
+      margin: 0 5px;
+      padding: 10px 20px;
+      font-size: 16px;
+    }
   </style>
+
+  <!-- ✅ EPUB.js 라이브러리 불러오기 -->
+  <script src="https://cdn.jsdelivr.net/npm/epubjs/dist/epub.min.js"></script>
 </head>
+
 <body>
+  <!-- ✅ 페이지 넘김 버튼 -->
   <div id="controls">
     <button onclick="rendition.prev()">← 이전 페이지</button>
     <button onclick="rendition.next()">다음 페이지 →</button>
   </div>
+
+  <!-- ✅ 뷰어 영역 -->
   <div id="viewer"></div>
 
+  <!-- ✅ JavaScript: EPUB 파일 불러오기 및 렌더링 -->
   <script>
-    const book = ePub("book.epub"); // EPUB 파일 이름
+    const book = ePub("book.epub"); // 네 EPUB 파일 이름
     const rendition = book.renderTo("viewer", {
       width: "100%",
       height: "100%",
-      spread: "always"
+      spread: "always" // 양면 보기 설정
     });
     rendition.display();
 
-    // 목차 콘솔에 출력 (원하면 UI로도 가능)
+    // 목차 콘솔에 출력
     book.loaded.navigation.then(function(toc) {
       console.log("목차:", toc);
     });
