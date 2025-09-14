@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package version="2.0" unique-identifier="bookid" xmlns="http://www.idpf.org/2007/opf">
+  <metadata xmlns:opf="http://www.idpf.org/2007/opf" xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <meta content="Adobe InDesign" name="generator" />
+    <dc:title>과학공화국 물리법정 1_견본</dc:title>
+    <dc:creator>정완상</dc:creator>
+    <dc:subject />
+    <dc:description />
+    <dc:publisher />
+    <dc:date>2024-05-28</dc:date>
+    <dc:source />
+    <dc:relation />
+    <dc:coverage />
+    <dc:rights />
+    <dc:language>ko-KR</dc:language>
+    <meta content="0.9.7" name="Sigil version" />
+    <dc:date xmlns:opf="http://www.idpf.org/2007/opf" opf:event="modification">2025-08-18</dc:date>
+    <dc:identifier id="bookid">urn:uuid:29d919dd-24f5-4384-be78-b447c9dc299b</dc:identifier>
+    <meta name="cover" content="cover.jpg" />
+  </metadata>
+  <manifest>
+    <item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml"/>
+    <item id="style.css" href="Styles/style.css" media-type="text/css"/>
+    <item id="x003.jpg" href="Images/003.jpg" media-type="image/jpeg"/>
+    <item id="x013.jpg" href="Images/013.jpg" media-type="image/jpeg"/>
+    <item id="x014.jpg" href="Images/014.jpg" media-type="image/jpeg"/>
+    <item id="x016.jpg" href="Images/016.jpg" media-type="image/jpeg"/>
+    <item id="x038.jpg" href="Images/038.jpg" media-type="image/jpeg"/>
+    <item id="com.jpg" href="Images/com.jpg" media-type="image/jpeg"/>
+    <item id="cover.jpg" href="Images/cover.jpg" media-type="image/jpeg"/>
+    <item id="icon1.jpg" href="Images/icon1.jpg" media-type="image/jpeg"/>
+    <item id="icon2.jpg" href="Images/icon2.jpg" media-type="image/jpeg"/>
+    <item id="icon3.jpg" href="Images/icon3.jpg" media-type="image/jpeg"/>
+    <item id="icon4.jpg" href="Images/icon4.jpg" media-type="image/jpeg"/>
+    <item id="man1.jpg" href="Images/man1.jpg" media-type="image/jpeg"/>
+    <item id="man2.jpg" href="Images/man2.jpg" media-type="image/jpeg"/>
+    <item id="man3.jpg" href="Images/man3.jpg" media-type="image/jpeg"/>
+    <item id="man4.jpg" href="Images/man4.jpg" media-type="image/jpeg"/>
+    <item id="KoPubBatangLight.ttf" href="Fonts/KoPubBatangLight.ttf" media-type="application/x-font-ttf"/>
+    <item id="KoPubDotumBold.ttf" href="Fonts/KoPubDotumBold.ttf" media-type="application/x-font-ttf"/>
+    <item id="KoPubDotumLight.ttf" href="Fonts/KoPubDotumLight.ttf" media-type="application/x-font-ttf"/>
+    <item id="cover.xhtml" href="Text/cover.xhtml" media-type="application/xhtml+xml"/>
+    <item id="x41fe11ac-f8d1-4c13-868f-1e3c0382df91" href="Text/Section0001.xhtml" media-type="application/xhtml+xml"/>
+    <item id="Section0002.xhtml" href="Text/Section0002.xhtml" media-type="application/xhtml+xml"/>
+    <item id="Section0003.xhtml" href="Text/Section0003.xhtml" media-type="application/xhtml+xml"/>
+    <item id="Section0004.xhtml" href="Text/Section0004.xhtml" media-type="application/xhtml+xml"/>
+    <item id="case1.png" href="Images/case1.png" media-type="image/png"/>
+    <item id="Section0005.xhtml" href="Text/Section0005.xhtml" media-type="application/xhtml+xml"/>
+    <item id="Section0006.xhtml" href="Text/Section0006.xhtml" media-type="application/xhtml+xml"/>
+    <item id="case2.png" href="Images/case2.png" media-type="image/png"/>
+    <item id="Section0007.xhtml" href="Text/Section0007.xhtml" media-type="application/xhtml+xml"/>
+    <item id="Section0013.xhtml" href="Text/Section0013.xhtml" media-type="application/xhtml+xml"/>
+  </manifest>
+  <spine toc="ncx">
+    <itemref idref="cover.xhtml"/>
+    <itemref idref="x41fe11ac-f8d1-4c13-868f-1e3c0382df91"/>
+    <itemref idref="Section0002.xhtml"/>
+    <itemref idref="Section0003.xhtml"/>
+    <itemref idref="Section0004.xhtml"/>
+    <itemref idref="Section0005.xhtml"/>
+    <itemref idref="Section0006.xhtml"/>
+    <itemref idref="Section0007.xhtml"/>
+    <itemref idref="Section0013.xhtml"/>
+  </spine>
+  <guide>
+  </guide>
+</package>

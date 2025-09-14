@@ -1,0 +1,407 @@
+@font-face { font-family: "KOPUSMjL"; src: url(../Fonts/KoPubBatangLight.ttf); }
+
+@font-face { font-family: "KOPUSGoL"; src: url(../Fonts/KoPubDotumLight.ttf); }
+@font-face { font-family: "KOPUSGoB"; src: url(../Fonts/KoPubDotumBold.ttf); }
+
+
+body { font-family: "KOPUSMjL","KOPUSGoL","KOPUSGoB"; }
+
+html, body { height:100%; margin: 0; padding: 0; }
+a {text-decoration:none; color:inherit;}
+h1 {margin:0;}
+sup {line-height:1.2em;}
+sub {
+	line-height:1.2em;
+	font-size:0.7em;
+}
+.none {display:none;}
+
+.w100 {
+	width : 100%;
+	height : auto;
+	text-align:center;
+	}
+
+p{
+	text-indent: 0em;
+	display:block;
+	font-size : 1em;
+	text-align : justify;
+	line-height : 1.8em;
+	margin : 0px;
+	font-family:"KOPUSMjL";
+}    
+ 
+.pd10 {padding:1em;}
+
+.f_left {
+  float: left; 
+  margin: 1em 1em 1em 0em;
+}
+
+.f_right {
+  float: right; 
+  margin: 1em 0em 1em 1em;
+}
+
+.clear {clear:both;}
+  
+.img_c {
+	text-align:center;
+	text-indent:0em;
+	font-family: "KOPUSGoB";
+	font-weight: bold;
+	font-size:0.85em;
+}
+
+
+/*추가 서식*/
+
+.q1 {
+	margin-left:1em;
+	color:#0083B6;
+	font-family: "KOPUSGoL";
+}
+.table1 {
+	width:80%;
+	border-collapse: collapse;
+	margin-left:2em;
+}
+
+.tr1>td {
+	padding:0.2em;
+}
+
+.brown {color:#C4892F;}
+.purple {color:#7F3596;}
+.bg1 {background-color:#F0F6DC;}
+.bg2 {background-color:#EFF4D7;}
+.green {color:#00994E;}
+.green1 {color:#65B04C;}
+
+
+.bar1 {border-top:1px solid #000;}
+
+.box2 {
+	background-color:#E3D8EA;
+	border-radius:10px;
+	padding:0.5em;
+	margin:0.5em;
+}
+
+
+.brk {font-size:0.9em;}
+.under {border-bottom:1px solid #000;}
+.a1 {
+	font-size:1.2em;
+	text-align:center;
+	text-indent:0em;
+}
+.a2 {
+	font-size:0.9em;
+	text-indent:0em;
+	font-family: "KOPUSGoL";
+}
+.a3 {
+	font-family: "KOPUSGoB";
+	text-indent:0em;
+	color:#CC7240;
+}
+.a4 {
+	font-family: "KOPUSGoB";
+	text-indent:0em;
+	text-align:center;
+	font-size:1.2em;
+}
+.box1 {
+	border:1px solid #7F3596;
+	border-radius:15px;
+	padding:0.5em;
+	margin:0.5em;
+}
+
+.left {
+	text-align:left;
+	display:block;
+}
+
+.right {
+	text-align:right;
+	display:block;
+}
+
+.center {
+	text-align:center;
+	text-indent:0em;
+	display:block;
+}
+
+.center p {
+	text-align:center;
+	text-indent:0em;
+	display:block;
+}
+
+.w10 {width:10%;}
+.w15 {width:15%;}
+.w20 {width:20%;}
+.w25 {width:25%;}
+.w30 {width:30%;}
+.w40 {width:40%;}
+.w45 {width:45%;}
+.w50 {width:50%;}
+.w60 {width:60%;}
+.w70 {width:70%;}
+.w80 {width:80%;}
+.w90 {width:90%;}
+
+.f20 {font-size:2em;}
+.f15 {font-size:1.5em;}
+.f12 {font-size:1.2em;}
+.f11 {font-size:1.1em;}
+.f09 {font-size:0.9em;}
+.f08 {
+	font-size:0.8em;
+	line-height:1.6em;
+}
+.f07 {
+	font-size:0.7em;
+	line-height:1.2em;
+}
+.f06 {
+	font-size:0.6em;
+	line-height:1.2em;
+}
+
+
+.serifL {font-family: "KOPUSMjL";}
+.sansB {font-family: "KOPUSGoB"; }
+.sansL {font-family: "KOPUSGoL";}
+
+
+.text_ch {
+	font-size:0.85em;
+	color:#8F908F;
+	line-height:1.2em;
+}
+.box3 {
+	border:1px solid #2EBB85;
+	padding:0.5em;
+}
+.box4 {
+	background-color:#D9F0F3;
+	padding:0.5em;
+}
+.box5 {
+	border:1px solid #000;
+	padding:0.5em;
+}
+.mark {
+	color:#006281;
+	line-height:1.4em;
+}
+.num02 {width:0.33em;}
+.num03 {width:0.35em;}
+.num04 {width:0.4em;}
+.num05 {width:0.5em;}
+.num06 {width:0.6em;}
+.num0 {width:0.7em;}
+.num08 {width:0.8em;}
+.num09 {width:0.9em;}
+.num1 {width:1em;}
+.num11 {width:1.1em;}
+.num12 {width:1.2em;}
+.num13 {width:1.3em;}
+.num15 {width:1.5em;}
+.num18 {width:1.8em;}
+.num2 {width:2em;}
+.num25 {width:2.5em;}
+.num3 {width:3em;}
+.num35 {width:3.5em;}
+.num4 {width:4em;}
+.num45 {width:4.5em;}
+.num5 {width:5em;}
+.num55 {width:5.5em;}
+.num6 {width:6em;}
+.num7 {width:7em;}
+.num8 {width:8.0em;}
+.num95 {width:9.5em;}
+.num10 {width:10em;}
+.num110 {width:11em;}
+.num120 {width:12em;}
+.num130 {width:13em;}
+.num140 {width:14em;}
+.num150 {width:15em;}
+
+.vl02 {vertical-align:-0.2em;}
+.vl03 {vertical-align:-0.3em;}
+.vl04 {vertical-align:-0.4em;}
+.vl05 {vertical-align:-0.5em;}
+.vl06 {vertical-align:-0.6em;}
+.vl07 {vertical-align:-0.7em;}
+.vl08 {vertical-align:-0.8em;}
+.vl09 {vertical-align:-0.9em;}
+.vl10 {vertical-align:-1em;}
+.vl11 {vertical-align:-1.1em;}
+.vl12 {vertical-align:-1.2em;}
+.vl15 {vertical-align:-1.5em;}
+.vl18 {vertical-align:-1.8em;}
+.vl22 {vertical-align:-2.2em;}
+.vl30 {vertical-align:-3em;}
+.v2 {vertical-align:0.2em;}
+
+.mt05 {margin-top:0.5em;}
+
+.copy p {
+	text-indent:0em;
+	font-size:0.85em;
+}
+.footnote {
+	text-indent:0em;
+	font-size:0.85em;
+	font-family: "KOPUSGoL";
+}
+.back {
+	background-color:#BCBDC0;
+	font-family: "KOPUSGoB";
+	margin-right:2em;
+}
+
+/*여백*/
+.in00{text-indent:1em;}
+.in0 {text-indent:0em;}
+.in0 p{text-indent:0em;}
+.in07 {text-indent:-0.7em;}
+.in08 {text-indent:-0.8em;}
+.in09 {text-indent:-0.9em !important;}
+.in10 {text-indent:-1em;}
+.in11 {text-indent:-1.1em;}
+.in12 {text-indent:-1.2em;}
+.in13 {text-indent:-1.3em;}
+.in14 {text-indent:-1.4em;}
+.in15 {text-indent:-1.5em;}
+.in16 {text-indent:-1.6em;}
+.in17 {text-indent:-1.7em;}
+.in18 {text-indent:-1.8em;}
+.in19 {text-indent:-1.9em;}
+.in20 {text-indent:-2em;}
+.in21 {text-indent:-2.1em;}
+.in22 {text-indent:-2.2em;}
+.in23 {text-indent:-2.3em;}
+.in24 {text-indent:-2.4em !important;}
+.in25 {text-indent:-2.5em;}
+.in26 {text-indent:-2.6em;}
+.in27 {text-indent:-2.7em;}
+.in28 {text-indent:-2.8em;}
+.in29 {text-indent:-2.9em;}
+.in30 {text-indent:-3em;}
+.in31 {text-indent:-3.1em;}
+.in32 {text-indent:-3.2em !important;}
+.in33 {text-indent:-3.3em;}
+.in34 {text-indent:-3.4em;}
+.in35 {text-indent:-3.5em;}
+.in36 {text-indent:-3.6em;}
+.in37 {text-indent:-3.7em;}
+.in38 {text-indent:-3.8em;}
+.in39 {text-indent:-3.9em;}
+.in40 {text-indent:-4em;}
+.in41 {text-indent:-4.1em;}
+.in42 {text-indent:-4.2em;}
+.in43 {text-indent:-4.3em;}
+.in44 {text-indent:-4.4em;}
+.in45 {text-indent:-4.5em;}
+.in46 {text-indent:-4.6em;}
+.in47 {text-indent:-4.7em;}
+.in48 {text-indent:-4.8em;}
+.in49 {text-indent:-4.9em;}
+.in50 {text-indent:-5.0em;}
+
+.ml05 {margin-left:0.5em;}
+.ml06 {margin-left:0.6em;}
+.ml07 {margin-left:0.7em;}
+.ml08 {margin-left:0.8em;}
+.ml09 {margin-left:0.9em;}
+.ml10 {margin-left:1em;}
+.ml11 {margin-left:1.1em;}
+.ml12 {margin-left:1.2em;}
+.ml13 {margin-left:1.3em;}
+.ml14 {margin-left:1.4em;}
+.ml15 {margin-left:1.5em;}
+.ml16 {margin-left:1.6em;}
+.ml17 {margin-left:1.7em;}
+.ml18 {margin-left:1.8em;}
+.ml19 {margin-left:1.9em;}
+.ml20 {margin-left:2em;}
+.ml21 {margin-left:2.1em;}
+.ml22 {margin-left:2.2em;}
+.ml23 {margin-left:2.3em;}
+.ml24 {margin-left:2.4em;}
+.ml25 {margin-left:2.5em;}
+.ml26 {margin-left:2.6em;}
+.ml27 {margin-left:2.7em;}
+.ml28 {margin-left:2.8em;}
+.ml29 {margin-left:2.9em;}
+.ml30 {margin-left:3em;}
+.ml31 {margin-left:3.1em;}
+.ml32 {margin-left:3.2em;}
+.ml33 {margin-left:3.3em;}
+.ml34 {margin-left:3.4em;}
+.ml35 {margin-left:3.5em;}
+.ml36 {margin-left:3.6em;}
+.ml37 {margin-left:3.7em;}
+.ml38 {margin-left:3.8em;}
+.ml39 {margin-left:3.9em;}
+.ml40 {margin-left:4em;}
+.ml41 {margin-left:4.1em;}
+.ml42 {margin-left:4.2em;}
+.ml43 {margin-left:4.3em;}
+.ml44 {margin-left:4.4em;}
+.ml45 {margin-left:4.5em;}
+.ml46 {margin-left:4.6em;}
+.ml47 {margin-left:4.7em;}
+.ml48 {margin-left:4.8em;}
+.ml49 {margin-left:4.9em;}
+.ml50 {margin-left:5em;}
+.ml51 {margin-left:5.1em;}
+.ml52 {margin-left:5.2em;}
+.ml53 {margin-left:5.3em;}
+.ml54 {margin-left:5.4em;}
+.ml55 {margin-left:5.5em;}
+.ml56 {margin-left:5.6em;}
+.ml57 {margin-left:5.7em;}
+.ml58 {margin-left:5.8em;}
+.ml59 {margin-left:5.9em;}
+.ml60 {margin-left:6.0em;}
+.ml61 {margin-left:6.1em;}
+.ml62 {margin-left:6.2em;}
+.ml63 {margin-left:6.3em;}
+.ml64 {margin-left:6.4em;}
+.ml65 {margin-left:6.5em;}
+.ml66 {margin-left:6.6em;}
+.ml67 {margin-left:6.7em;}
+.ml68 {margin-left:6.8em;}
+.ml69 {margin-left:6.9em;}
+.ml70 {margin-left:7em;}
+.ml71 {margin-left:7.1em;}
+.ml72 {margin-left:7.2em;}
+.ml73 {margin-left:7.3em;}
+.ml74 {margin-left:7.4em;}
+.ml75 {margin-left:7.5em;}
+.ml76 {margin-left:7.6em;}
+.ml77 {margin-left:7.7em;}
+.ml78 {margin-left:7.8em;}
+.ml79 {margin-left:7.9em;}
+.ml80 {margin-left:8em;}
+.ml81 {margin-left:8.1em;}
+.ml82 {margin-left:8.2em;}
+.ml83 {margin-left:8.3em;}
+.ml84 {margin-left:8.4em;}
+.ml85 {margin-left:8.5em;}
+.ml86 {margin-left:8.6em;}
+.ml87 {margin-left:8.7em;}
+.ml88 {margin-left:8.8em;}
+.ml89 {margin-left:8.9em;}
+.ml90 {margin-left:9em;}
+.ml110{margin-left:10em;}
+.ml115{margin-left:10.5em;}
+.ml120{margin-left:12em;}
